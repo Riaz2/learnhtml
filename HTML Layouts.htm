@@ -1,0 +1,450 @@
+<!doctype html>
+<html lang="en">
+	<head>
+                 <title>HTML In Just 5 Steps Easy </title>
+                 <meta charset="UTF-8">
+                 <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                 
+                 <link href="main.css" rel="stylesheet" type="text/css">
+				
+                 <link rel="icon" type="image/gif" href="html5.gif" />                 
+                 <!--smile face animation style-->
+                 <style>
+                        #div1 {
+                          font-size:48px;
+                        }
+                 </style>
+                 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                
+                
+               <!--Google font style-->
+                
+                 <link href='https://fonts.googleapis.com/css?family=Abhaya Libre' rel='stylesheet'>
+                 <style>
+                 body {
+                     font-family: 'Abhaya Libre';font-size: 22px;
+                 }
+                 </style>
+              <!--Google font style end-->
+		
+	</head>
+	<body link="00b3fd" vlink="red" style=" 
+                    margin-top: 20px;
+                    margin-left: 20px;
+                    margin-right: 20px;
+                    margin-bottom: 05px;" TEXT="black">
+                
+              <!-- HEAD Section Starts-->
+                <center>
+		<img src="Logo img/logo.gif" height="70px"><img/>
+		</center>
+		
+                <!--Google Translation Service-->
+                <div align="right" id="google_translate_element"></div><script type="text/javascript">
+                function googleTranslateElementInit() {
+                  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+                }
+                </script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+                <!--Google Translation Service end-->
+                
+                
+                <marquee bgcolor="yellow">
+		<font face="Calibri" color="red" size="5">
+		<b>WELCOME TO MY SITE. THIS SITE HAS BEEN CREATED BY MD RIAZ & IS FOR TRAIL ONLY. THANK YOU.<b>
+		</font>
+		</marquee>
+                
+                
+                <!--Navigation bar Starts from here-->
+                
+	<div class="container" id="main" role="main">
+            <ul class="menu">
+                <li><a href="index.htm">Home</a></li>
+                <li><a href="#s1">HTML Steps »</a>
+                    <ul class="submenu">
+                         <li><a href="HTML Doctypes.htm">HTML Doctypes</a></li>
+                        <li><a href="HTML Layouts.htm">HTML Layout</a></li>
+                        <li><a href="HTML Head.htm">HTML Head</a></li>
+                        <li><a href="Importance of Meta Tag for Search Engines.htm">HTML Meta</a></li>
+                        <li><a href="How to Add JavaScript to HTML Pages.htm">HTML Script</a></li>
+                        <li><a href="HTML URL.htm">HTML URL</a></li>
+                        <li><a href="How to Validate HTML Pages.htm">HTML Validation</a></li>
+                    </ul>
+                </li>
+                <li class="active"><a href="#s2">HTML Advenced »</a>
+                    <ul class="submenu">
+                        <li><a href="HTML Doctypes.htm">HTML Doctypes</a></li>
+                        <li><a href="HTML Layouts.htm">HTML Layout</a></li>
+                        <li><a href="HTML Head.htm">HTML Head</a></li>
+                        <li><a href="Importance of Meta Tag for Search Engines.htm">HTML Meta</a></li>
+                        <li><a href="How to Add JavaScript to HTML Pages.htm">HTML Script</a></li>
+                        <li><a href="HTML URL.htm">HTML URL</a></li>
+                        <li><a href="How to Validate HTML Pages.htm">HTML Validation</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">HTML References »</a>
+                    <ul class="submenu">
+                       
+                        <li><a href="#">HTML Character Entities</a></li>
+                        <li><a href="#">List of HTML5 Tags/Elements</a></li>
+                        
+                    </ul>
+                </li>
+                <li><a href="#">Contact »</a>
+               <ul class="submenu">
+			<li><a href="http://m.facebook.com/mdriaz.official"><img src="facebook-icon.png" width="20">Facebook</a></li>
+			<li><a href="mailto:riazmd582@gmail.com?subject=Feedback%20about%20your%20site"><img src="Mail-icon.png" width="20">Email</a></li>
+			</ul>
+            </li></ul>
+        </div>
+		<br>
+                <!--Navigation bar ends-->
+                
+                <!--Contents-->
+				<div>
+				<h1 align="center"><font color="c5003a"><b>H</b></font>
+				<font color="ffc200"><b>T</b></font>
+				<font color="5a1842"><b>M</b></font>
+				<font color="ff5531"><b>L</b></font> 
+				<font color="blue">Layout</font></h1><hr>
+				<i>Web page layout is an essential part of creating well-formed, well-structured, semantically-rich websites.</i><hr>
+				<h3>Creating Website Layouts</h3>
+				<p>Creating a website layout is the activity of positioning the various elements that make a web page in a well-structured manner and give appealing look to the website.
+					You can find, most of the websites on the internet have put their content in multiple rows and columns — formatted like a magazine or newspaper, to give general web users a better reading and writing environment. This can be easily achieved by using the &lt;table&gt;, &lt;div&gt; or &lt;span&gt; tags and adding some styles to them.</p>
+				
+				<h3>HTML Layout Using Tables</h3>
+				<p>Tables are the simplest method for creating layouts in HTML. Generally, this involves the process of putting the content into rows and columns.
+					The following HTML layout is achieved using a table with 3 rows and 2 columns — the first and last row spans both columns using the <code style="color:#D81B60">colspan</code> attribute:</p>
+                        <div class="codebox-title"><h4>Example</h4></div>
+                        <ol>
+                            <li><pre><span class="cm-meta">&lt;!DOCTYPE html&gt;</span></pre></li>
+                            <li class="alt"><pre><span class="cm-tag">&lt;html</span> <span class="cm-attribute">lang</span>=<span class="cm-string">"en"</span><span class="cm-tag">&gt;</span></pre></li>
+                            <li><pre><span class="cm-tag">&lt;head&gt;</span></pre></li>
+							<li class="alt"><pre>    <span class="cm-tag">&lt;meta</span> <span class="cm-attribute">charset</span>=<span class="cm-string">"UTF-8"</span><span class="cm-tag">&gt;</span></pre></li>
+                            <li><pre>    <span class="cm-tag">&lt;title&gt;</span>HTML Table Layout<span class="cm-tag">&lt;/title&gt;</span></pre></li>
+                            <li class="alt"><pre><span class="cm-tag">&lt;/head&gt;</span></pre></li>
+                            <li><pre><span class="cm-tag">&lt;body</span> <span class="cm-attribute">style</span>=<span class="cm-string">"margin:0px;"</span><span class="cm-tag">&gt;</span></pre></li>
+                            <li class="alt"><pre>    <span class="cm-tag">&lt;table</span> <span class="cm-attribute">cellpadding</span>=<span class="cm-string">"10px;"</span> <span class="cm-attribute">cellspacing</span>=<span class="cm-string">"0"</span> <span class="cm-attribute">style</span>=<span class="cm-string">"font:12px verdana, sans-serif; width:100%;"</span><span class="cm-tag">&gt;</span></pre></li>
+                            <li><pre>        <span class="cm-tag">&lt;tr&gt;</span></pre></li>
+                            <li class="alt"><pre>            <span class="cm-tag">&lt;td</span> <span class="cm-attribute">colspan</span>=<span class="cm-string">"2"</span> <span class="cm-attribute">style</span>=<span class="cm-string">"background-color:#679BB7;"</span><span class="cm-tag">&gt;</span></pre></li>
+                            <li><pre>                <span class="cm-tag">&lt;h1</span> <span class="cm-attribute">style</span>=<span class="cm-string">"font-size:18px; margin:10px 0;"</span><span class="cm-tag">&gt;</span>MYHTML<span class="cm-tag">&lt;/h1&gt;</span></pre></li>
+                            <li class="alt"><pre>            <span class="cm-tag">&lt;/td&gt;</span></pre></li>
+                            <li><pre>        <span class="cm-tag">&lt;/tr&gt;</span></pre></li>
+                            <li class="alt"><pre>        <span class="cm-tag">&lt;tr</span> <span class="cm-attribute">style</span>=<span class="cm-string">"height:170px;"</span><span class="cm-tag">&gt;</span></pre></li>
+                            <li><pre>            <span class="cm-tag">&lt;td</span> <span class="cm-attribute">style</span>=<span class="cm-string">"background-color:#bbd2df; width:20%; vertical-align:top;"</span><span class="cm-tag">&gt;</span></pre></li>
+                            <li class="alt"><pre>                <span class="cm-tag">&lt;ul</span> <span class="cm-attribute">style</span>=<span class="cm-string">"list-style:none; padding:0px; margin:0px;"</span><span class="cm-tag">&gt;</span></pre></li>
+                            <li><pre>                    <span class="cm-tag">&lt;li</span> <span class="cm-attribute">style</span>=<span class="cm-string">"margin-bottom:5px;"</span><span class="cm-tag">&gt;&lt;a</span> <span class="cm-attribute">href</span>=<span class="cm-string">"#"</span> <span class="cm-attribute">style</span>=<span class="cm-string">"color:#3d677e;"</span><span class="cm-tag">&gt;</span>Home<span class="cm-tag">&lt;/a&gt;&lt;/li&gt;</span></pre></li>
+                            <li class="alt"><pre>                    <span class="cm-tag">&lt;li</span> <span class="cm-attribute">style</span>=<span class="cm-string">"margin-bottom:5px;"</span><span class="cm-tag">&gt;&lt;a</span> <span class="cm-attribute">href</span>=<span class="cm-string">"#"</span> <span class="cm-attribute">style</span>=<span class="cm-string">"color:#3d677e;"</span><span class="cm-tag">&gt;</span>About<span class="cm-tag">&lt;/a&gt;&lt;/li&gt;</span></pre></li>
+                            <li><pre>                    <span class="cm-tag">&lt;li</span> <span class="cm-attribute">style</span>=<span class="cm-string">"margin-bottom:5px;"</span><span class="cm-tag">&gt;&lt;a</span> <span class="cm-attribute">href</span>=<span class="cm-string">"#"</span> <span class="cm-attribute">style</span>=<span class="cm-string">"color:#3d677e;"</span><span class="cm-tag">&gt;</span>Contact<span class="cm-tag">&lt;/a&gt;&lt;/li&gt;</span></pre></li>
+                            <li class="alt"><pre>                <span class="cm-tag">&lt;/ul&gt;</span></pre></li>
+                            <li><pre>            <span class="cm-tag">&lt;/td&gt;</span></pre></li>
+                            <li class="alt"><pre>            <span class="cm-tag">&lt;td</span> <span class="cm-attribute">style</span>=<span class="cm-string">"background-color:#f0f0f0; width:80%; vertical-align:top;"</span><span class="cm-tag">&gt;</span></pre></li>
+                            <li><pre>                <span class="cm-tag">&lt;h2</span> <span class="cm-attribute">style</span>=<span class="cm-string">"font-size:16px; margin:0px;"</span><span class="cm-tag">&gt;</span>Welcome to our site<span class="cm-tag">&lt;/h2&gt;</span></pre></li>
+                            <li class="alt"><pre>                <span class="cm-tag">&lt;p&gt;</span>Here you will learn to create websites...<span class="cm-tag">&lt;/p&gt;</span></pre></li>
+                            <li><pre>            <span class="cm-tag">&lt;/td&gt;</span></pre></li>
+                            <li class="alt"><pre>        <span class="cm-tag">&lt;/tr&gt;</span></pre></li>
+                            <li><pre>        <span class="cm-tag">&lt;tr&gt;</span></pre></li>
+                            <li class="alt"><pre>            <span class="cm-tag">&lt;td</span> <span class="cm-attribute">colspan</span>=<span class="cm-string">"2"</span> <span class="cm-attribute">style</span>=<span class="cm-string">"background-color:#679BB7;"</span><span class="cm-tag">&gt;</span></pre></li>
+                            <li><pre>                <span class="cm-tag">&lt;p</span> <span class="cm-attribute">style</span>=<span class="cm-string">"text-align:center; margin:5px;"</span><span class="cm-tag">&gt;</span>copyright <span class="cm-atom">&amp;copy;</span> myyhtml.mywebcommunity.org<span class="cm-tag">&lt;/p&gt;</span></pre></li>
+                            <li class="alt"><pre>            <span class="cm-tag">&lt;/td&gt;</span></pre></li>
+                            <li><pre>        <span class="cm-tag">&lt;/tr&gt;</span></pre></li>
+                            <li class="alt"><pre>    <span class="cm-tag">&lt;/table&gt;</span></pre></li>
+                            <li><pre><span class="cm-tag">&lt;/body&gt;</span></pre></li>
+                            <li class="alt"><pre><span class="cm-tag">&lt;/html&gt;</span></pre></li>
+                        </ol>                
+                    
+					<hr>
+					<p>— The HTML code above will produce the following output:</p>
+					<!--code output end-->
+									<!--code output-->
+						<!DOCTYPE html>
+				<html lang="en">
+				<head>
+				<meta charset="UTF-8">
+				<title>HTML Table Layout</title>
+				</head>
+				<body style="margin:0px;">
+				<table cellpadding="10px;" cellspacing="0" style="font:12px verdana, sans-serif; width:100%;">
+				<tr>
+				<td colspan="2" style="background-color:#679BB7;">
+                <h1 style="font-size:18px; margin:10px 0;">MYHTML</h1>
+				</td>
+				</tr>
+				<tr style="height:170px;">
+					<td style="background-color:#bbd2df; width:20%; vertical-align:top;">
+					<ul style="list-style:none; padding:0px; margin:0px;">
+                    <li style="margin-bottom:5px;"><a href="#" style="color:#3d677e;">Home</a></li>
+                    <li style="margin-bottom:5px;"><a href="#" style="color:#3d677e;">About</a></li>
+                    <li style="margin-bottom:5px;"><a href="#" style="color:#3d677e;">Contact</a></li>
+                </ul>
+				</td>
+				<td style="background-color:#f0f0f0; width:80%; vertical-align:top;">
+                <h2 style="font-size:16px; margin:0px;">Welcome to our site</h2>
+                <p>Here you will learn to create websites...</p>
+				</td>
+				</tr>
+				<tr>
+				<td colspan="2" style="background-color:#679BB7;">
+                <p style="text-align:center; margin:5px;">copyright &copy; myyhtml.mywebcommunity.org</p>
+				</td>
+				</tr>
+				</table>
+				</body>
+				</html>
+
+										<!--code output end-->		
+				
+						<p style="color:#913944; background:#ecd2d7; padding: 25px 15px 15px 25px;"><strong>Warning:</strong>The method used for creating layout in the above example is not wrong, but it's not recommended. Avoid tables and inline styles for creating layout.</p>
+					
+					<h3>HTML Layouts Using Div and Span</h3>
+					<p>The HTML <code style="color:#D81B60">&lt;div&gt;</code> (stands for division) element is used for marking out a block of content, or set of other elements inside an HTML document. It can contain further div element if required, but it cannot be contained within an inline element. The <code style="color:#D81B60">&lt;span&gt;</code> element on the other hand is used for marking out sections within a block element or other inline elements.</p>
+					<p>The following example uses the div elements to create a multiple column layout, producing the same result as in the previous example that uses tables:</p>
+					
+					
+					
+					
+					
+               
+                        <div class="codebox-title"><h4>Example</h4></div>
+                        <ol>
+                            <li><pre><span class="cm-meta">&lt;!DOCTYPE html&gt;</span></pre></li>
+                            <li class="alt"><pre><span class="cm-tag">&lt;html</span> <span class="cm-attribute">lang</span>=<span class="cm-string">"en"</span><span class="cm-tag">&gt;</span></pre></li>
+                            <li><pre><span class="cm-tag">&lt;head&gt;</span></pre></li>
+							<li class="alt"><pre>    <span class="cm-tag">&lt;meta</span> <span class="cm-attribute">charset</span>=<span class="cm-string">"UTF-8"</span><span class="cm-tag">&gt;</span></pre></li>
+                            <li><pre>    <span class="cm-tag">&lt;title&gt;</span>HTML Table Layout<span class="cm-tag">&lt;/title&gt;</span></pre></li>
+                            <li class="alt"><pre><span class="cm-tag">&lt;/head&gt;</span></pre></li>
+                            <li><pre><span class="cm-tag">&lt;body</span> <span class="cm-attribute">style</span>=<span class="cm-string">"margin:0px;"</span><span class="cm-tag">&gt;</span></pre></li>
+                            <li class="alt"><pre>    <span class="cm-tag">&lt;table</span> <span class="cm-attribute">cellpadding</span>=<span class="cm-string">"10px;"</span> <span class="cm-attribute">cellspacing</span>=<span class="cm-string">"0"</span> <span class="cm-attribute">style</span>=<span class="cm-string">"font:12px verdana, sans-serif; width:100%;"</span><span class="cm-tag">&gt;</span></pre></li>
+                            <li><pre>        <span class="cm-tag">&lt;tr&gt;</span></pre></li>
+                            <li class="alt"><pre>            <span class="cm-tag">&lt;td</span> <span class="cm-attribute">colspan</span>=<span class="cm-string">"2"</span> <span class="cm-attribute">style</span>=<span class="cm-string">"background-color:#679BB7;"</span><span class="cm-tag">&gt;</span></pre></li>
+                            <li><pre>                <span class="cm-tag">&lt;h1</span> <span class="cm-attribute">style</span>=<span class="cm-string">"font-size:18px; margin:10px 0;"</span><span class="cm-tag">&gt;</span>MYHTML<span class="cm-tag">&lt;/h1&gt;</span></pre></li>
+                            <li class="alt"><pre>            <span class="cm-tag">&lt;/td&gt;</span></pre></li>
+                            <li><pre>        <span class="cm-tag">&lt;/tr&gt;</span></pre></li>
+                            <li class="alt"><pre>        <span class="cm-tag">&lt;tr</span> <span class="cm-attribute">style</span>=<span class="cm-string">"height:170px;"</span><span class="cm-tag">&gt;</span></pre></li>
+                            <li><pre>            <span class="cm-tag">&lt;td</span> <span class="cm-attribute">style</span>=<span class="cm-string">"background-color:#bbd2df; width:20%; vertical-align:top;"</span><span class="cm-tag">&gt;</span></pre></li>
+                            <li class="alt"><pre>                <span class="cm-tag">&lt;ul</span> <span class="cm-attribute">style</span>=<span class="cm-string">"list-style:none; padding:0px; margin:0px;"</span><span class="cm-tag">&gt;</span></pre></li>
+                            <li><pre>                    <span class="cm-tag">&lt;li</span> <span class="cm-attribute">style</span>=<span class="cm-string">"margin-bottom:5px;"</span><span class="cm-tag">&gt;&lt;a</span> <span class="cm-attribute">href</span>=<span class="cm-string">"#"</span> <span class="cm-attribute">style</span>=<span class="cm-string">"color:#3d677e;"</span><span class="cm-tag">&gt;</span>Home<span class="cm-tag">&lt;/a&gt;&lt;/li&gt;</span></pre></li>
+                            <li class="alt"><pre>                    <span class="cm-tag">&lt;li</span> <span class="cm-attribute">style</span>=<span class="cm-string">"margin-bottom:5px;"</span><span class="cm-tag">&gt;&lt;a</span> <span class="cm-attribute">href</span>=<span class="cm-string">"#"</span> <span class="cm-attribute">style</span>=<span class="cm-string">"color:#3d677e;"</span><span class="cm-tag">&gt;</span>About<span class="cm-tag">&lt;/a&gt;&lt;/li&gt;</span></pre></li>
+                            <li><pre>                    <span class="cm-tag">&lt;li</span> <span class="cm-attribute">style</span>=<span class="cm-string">"margin-bottom:5px;"</span><span class="cm-tag">&gt;&lt;a</span> <span class="cm-attribute">href</span>=<span class="cm-string">"#"</span> <span class="cm-attribute">style</span>=<span class="cm-string">"color:#3d677e;"</span><span class="cm-tag">&gt;</span>Contact<span class="cm-tag">&lt;/a&gt;&lt;/li&gt;</span></pre></li>
+                            <li class="alt"><pre>                <span class="cm-tag">&lt;/ul&gt;</span></pre></li>
+                            <li><pre>            <span class="cm-tag">&lt;/td&gt;</span></pre></li>
+                            <li class="alt"><pre>            <span class="cm-tag">&lt;td</span> <span class="cm-attribute">style</span>=<span class="cm-string">"background-color:#f0f0f0; width:80%; vertical-align:top;"</span><span class="cm-tag">&gt;</span></pre></li>
+                            <li><pre>                <span class="cm-tag">&lt;h2</span> <span class="cm-attribute">style</span>=<span class="cm-string">"font-size:16px; margin:0px;"</span><span class="cm-tag">&gt;</span>Welcome to our site<span class="cm-tag">&lt;/h2&gt;</span></pre></li>
+                            <li class="alt"><pre>                <span class="cm-tag">&lt;p&gt;</span>Here you will learn to create websites...<span class="cm-tag">&lt;/p&gt;</span></pre></li>
+                            <li><pre>            <span class="cm-tag">&lt;/td&gt;</span></pre></li>
+                            <li class="alt"><pre>        <span class="cm-tag">&lt;/tr&gt;</span></pre></li>
+                            <li><pre>        <span class="cm-tag">&lt;tr&gt;</span></pre></li>
+                            <li class="alt"><pre>            <span class="cm-tag">&lt;td</span> <span class="cm-attribute">colspan</span>=<span class="cm-string">"2"</span> <span class="cm-attribute">style</span>=<span class="cm-string">"background-color:#679BB7;"</span><span class="cm-tag">&gt;</span></pre></li>
+                            <li><pre>                <span class="cm-tag">&lt;p</span> <span class="cm-attribute">style</span>=<span class="cm-string">"text-align:center; margin:5px;"</span><span class="cm-tag">&gt;</span>copyright <span class="cm-atom">&amp;copy;</span> myyhtml.mywebcommunity.org<span class="cm-tag">&lt;/p&gt;</span></pre></li>
+                            <li class="alt"><pre>            <span class="cm-tag">&lt;/td&gt;</span></pre></li>
+                            <li><pre>        <span class="cm-tag">&lt;/tr&gt;</span></pre></li>
+                            <li class="alt"><pre>    <span class="cm-tag">&lt;/table&gt;</span></pre></li>
+                            <li><pre><span class="cm-tag">&lt;/body&gt;</span></pre></li>
+                            <li class="alt"><pre><span class="cm-tag">&lt;/html&gt;</span></pre></li>
+                       </ol>              
+                   <hr>
+				   <p>— The HTML code above will produce the same output as the previous example:</p>
+												<!--code output end-->	
+													<!DOCTYPE html>
+											<html lang="en">
+											<head>
+												<meta charset="UTF-8">
+												<title>HTML Table Layout</title>
+											</head>
+											<body style="margin:0px;">
+												<table cellpadding="10px;" cellspacing="0" style="font:12px verdana, sans-serif; width:100%;">
+												<tr>
+												<td colspan="2" style="background-color:#679BB7;">
+												<h1 style="font-size:18px; margin:10px 0;">MYHTML</h1>
+												</td>
+												</tr>
+												<tr style="height:170px;">
+												<td style="background-color:#bbd2df; width:20%; vertical-align:top;">
+												<ul style="list-style:none; padding:0px; margin:0px;">
+												<li style="margin-bottom:5px;"><a href="#" style="color:#3d677e;">Home</a></li>
+												<li style="margin-bottom:5px;"><a href="#" style="color:#3d677e;">About</a></li>
+												<li style="margin-bottom:5px;"><a href="#" style="color:#3d677e;">Contact</a></li>
+												</ul>
+												</td>
+												<td style="background-color:#f0f0f0; width:80%; vertical-align:top;">
+												<h2 style="font-size:16px; margin:0px;">Welcome to our site</h2>
+												<p>Here you will learn to create websites...</p>
+												</td>
+												</tr>
+												<tr>
+												<td colspan="2" style="background-color:#679BB7;">
+												<p style="text-align:center; margin:5px;">copyright &copy; myyhtml.mywebcommunity.org</p>
+												</td>
+												</tr>
+												</table>
+											</body>
+											</html>
+														<!--code output end-->
+					<div class="tip-box">
+                            <p style="color:#913944; background:halfgreen; padding: 25px 15px 15px 25px;"><strong>Tip:</strong>Better layouts can be created by using DIV, SPAN and CSS. You can change the layout of all the pages of your website by just editing a CSS file.</p>
+                        </div>
+					<hr>
+					<h3>Creating Website Layouts Using HTML5 Structural Elements</h3>
+					<p>HTML5 has introduced new structural elements like <code style="color:#D81B60">&lt;header&gt;</code>, <code style="color:#D81B60">&lt;footer&gt;</code>, <code style="color:#D81B60">&lt;nav&gt;</code>, <code style="color:#D81B60">&lt;section&gt;</code> etc. to define different parts of the web pages in a more semantic way. You can consider these elements as a replacement for commonly used classes such as <code style="color:#D81B60">.header</code>, <code style="color:#D81B60">.footer</code>, <code style="color:#D81B60">.nav</code>, <code style="color:#D81B60">.section</code> etc. The following example uses the new HTML5 structural elements to create the same web page layout what we have created in the previous examples.</p>
+               
+                        <div class="codebox-title"><h4>Example</h4></div>
+                       <ol>
+                            <li><pre><span class="cm-meta">&lt;!DOCTYPE html&gt;</span></pre></li>
+                            <li class="alt"><pre><span class="cm-tag">&lt;html</span> <span class="cm-attribute">lang</span>=<span class="cm-string">"en"</span><span class="cm-tag">&gt;</span></pre></li>
+                            <li><pre><span class="cm-tag">&lt;head&gt;</span></pre></li>
+							<li class="alt"><pre>    <span class="cm-tag">&lt;meta</span> <span class="cm-attribute">charset</span>=<span class="cm-string">"UTF-8"</span><span class="cm-tag">&gt;</span></pre></li>
+                            <li><pre>    <span class="cm-tag">&lt;title&gt;</span>HTML Table Layout<span class="cm-tag">&lt;/title&gt;</span></pre></li>
+                            <li class="alt"><pre><span class="cm-tag">&lt;/head&gt;</span></pre></li>
+                            <li><pre><span class="cm-tag">&lt;body</span> <span class="cm-attribute">style</span>=<span class="cm-string">"margin:0px;"</span><span class="cm-tag">&gt;</span></pre></li>
+                            <li class="alt"><pre>    <span class="cm-tag">&lt;table</span> <span class="cm-attribute">cellpadding</span>=<span class="cm-string">"10px;"</span> <span class="cm-attribute">cellspacing</span>=<span class="cm-string">"0"</span> <span class="cm-attribute">style</span>=<span class="cm-string">"font:12px verdana, sans-serif; width:100%;"</span><span class="cm-tag">&gt;</span></pre></li>
+                            <li><pre>        <span class="cm-tag">&lt;tr&gt;</span></pre></li>
+                            <li class="alt"><pre>            <span class="cm-tag">&lt;td</span> <span class="cm-attribute">colspan</span>=<span class="cm-string">"2"</span> <span class="cm-attribute">style</span>=<span class="cm-string">"background-color:#679BB7;"</span><span class="cm-tag">&gt;</span></pre></li>
+                            <li><pre>                <span class="cm-tag">&lt;h1</span> <span class="cm-attribute">style</span>=<span class="cm-string">"font-size:18px; margin:10px 0;"</span><span class="cm-tag">&gt;</span>MYHTML<span class="cm-tag">&lt;/h1&gt;</span></pre></li>
+                            <li class="alt"><pre>            <span class="cm-tag">&lt;/td&gt;</span></pre></li>
+                            <li><pre>        <span class="cm-tag">&lt;/tr&gt;</span></pre></li>
+                            <li class="alt"><pre>        <span class="cm-tag">&lt;tr</span> <span class="cm-attribute">style</span>=<span class="cm-string">"height:170px;"</span><span class="cm-tag">&gt;</span></pre></li>
+                            <li><pre>            <span class="cm-tag">&lt;td</span> <span class="cm-attribute">style</span>=<span class="cm-string">"background-color:#bbd2df; width:20%; vertical-align:top;"</span><span class="cm-tag">&gt;</span></pre></li>
+                            <li class="alt"><pre>                <span class="cm-tag">&lt;ul</span> <span class="cm-attribute">style</span>=<span class="cm-string">"list-style:none; padding:0px; margin:0px;"</span><span class="cm-tag">&gt;</span></pre></li>
+                            <li><pre>                    <span class="cm-tag">&lt;li</span> <span class="cm-attribute">style</span>=<span class="cm-string">"margin-bottom:5px;"</span><span class="cm-tag">&gt;&lt;a</span> <span class="cm-attribute">href</span>=<span class="cm-string">"#"</span> <span class="cm-attribute">style</span>=<span class="cm-string">"color:#3d677e;"</span><span class="cm-tag">&gt;</span>Home<span class="cm-tag">&lt;/a&gt;&lt;/li&gt;</span></pre></li>
+                            <li class="alt"><pre>                    <span class="cm-tag">&lt;li</span> <span class="cm-attribute">style</span>=<span class="cm-string">"margin-bottom:5px;"</span><span class="cm-tag">&gt;&lt;a</span> <span class="cm-attribute">href</span>=<span class="cm-string">"#"</span> <span class="cm-attribute">style</span>=<span class="cm-string">"color:#3d677e;"</span><span class="cm-tag">&gt;</span>About<span class="cm-tag">&lt;/a&gt;&lt;/li&gt;</span></pre></li>
+                            <li><pre>                    <span class="cm-tag">&lt;li</span> <span class="cm-attribute">style</span>=<span class="cm-string">"margin-bottom:5px;"</span><span class="cm-tag">&gt;&lt;a</span> <span class="cm-attribute">href</span>=<span class="cm-string">"#"</span> <span class="cm-attribute">style</span>=<span class="cm-string">"color:#3d677e;"</span><span class="cm-tag">&gt;</span>Contact<span class="cm-tag">&lt;/a&gt;&lt;/li&gt;</span></pre></li>
+                            <li class="alt"><pre>                <span class="cm-tag">&lt;/ul&gt;</span></pre></li>
+                            <li><pre>            <span class="cm-tag">&lt;/td&gt;</span></pre></li>
+                            <li class="alt"><pre>            <span class="cm-tag">&lt;td</span> <span class="cm-attribute">style</span>=<span class="cm-string">"background-color:#f0f0f0; width:80%; vertical-align:top;"</span><span class="cm-tag">&gt;</span></pre></li>
+                            <li><pre>                <span class="cm-tag">&lt;h2</span> <span class="cm-attribute">style</span>=<span class="cm-string">"font-size:16px; margin:0px;"</span><span class="cm-tag">&gt;</span>Welcome to our site<span class="cm-tag">&lt;/h2&gt;</span></pre></li>
+                            <li class="alt"><pre>                <span class="cm-tag">&lt;p&gt;</span>Here you will learn to create websites...<span class="cm-tag">&lt;/p&gt;</span></pre></li>
+                            <li><pre>            <span class="cm-tag">&lt;/td&gt;</span></pre></li>
+                            <li class="alt"><pre>        <span class="cm-tag">&lt;/tr&gt;</span></pre></li>
+                            <li><pre>        <span class="cm-tag">&lt;tr&gt;</span></pre></li>
+                            <li class="alt"><pre>            <span class="cm-tag">&lt;td</span> <span class="cm-attribute">colspan</span>=<span class="cm-string">"2"</span> <span class="cm-attribute">style</span>=<span class="cm-string">"background-color:#679BB7;"</span><span class="cm-tag">&gt;</span></pre></li>
+                            <li><pre>                <span class="cm-tag">&lt;p</span> <span class="cm-attribute">style</span>=<span class="cm-string">"text-align:center; margin:5px;"</span><span class="cm-tag">&gt;</span>copyright <span class="cm-atom">&amp;copy;</span> myyhtml.mywebcommunity.org<span class="cm-tag">&lt;/p&gt;</span></pre></li>
+                            <li class="alt"><pre>            <span class="cm-tag">&lt;/td&gt;</span></pre></li>
+                            <li><pre>        <span class="cm-tag">&lt;/tr&gt;</span></pre></li>
+                            <li class="alt"><pre>    <span class="cm-tag">&lt;/table&gt;</span></pre></li>
+                            <li><pre><span class="cm-tag">&lt;/body&gt;</span></pre></li>
+                            <li class="alt"><pre><span class="cm-tag">&lt;/html&gt;</span></pre></li>
+                       </ol>
+				<hr>
+				<!--code output-->
+				<!DOCTYPE html>
+				<html lang="en">
+					<head>
+				<meta charset="UTF-8">
+				<title>HTML Table Layout</title>
+				</head>
+				<body style="margin:0px;">
+				<table cellpadding="10px;" cellspacing="0" style="font:12px verdana, sans-serif; width:100%;">
+					<tr>
+				<td colspan="2" style="background-color:#679BB7;">
+                <h1 style="font-size:18px; margin:10px 0;">MYHTML</h1>
+				</td>
+				</tr>
+				<tr style="height:170px;">
+				<td style="background-color:#bbd2df; width:20%; vertical-align:top;">
+						<ul style="list-style:none; padding:0px; margin:0px;">
+						<li style="margin-bottom:5px;"><a href="#" style="color:#3d677e;">Home</a></li>
+						<li style="margin-bottom:5px;"><a href="#" style="color:#3d677e;">About</a></li>
+						<li style="margin-bottom:5px;"><a href="#" style="color:#3d677e;">Contact</a></li>
+						</ul>
+				</td>
+				<td style="background-color:#f0f0f0; width:80%; vertical-align:top;">
+					<h2 style="font-size:16px; margin:0px;">Welcome to our site</h2>
+					<p>Here you will learn to create websites...</p>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" style="background-color:#679BB7;">
+                <p style="text-align:center; margin:5px;">copyright &copy; myyhtml.mywebcommunity.org</p>
+				</td>
+			</tr>
+			</table>
+			</body>
+			</html>
+				<!--code output end-->
+				
+				</div><hr>
+				<!--content end-->
+				<br><br><br>
+               				<!--footer secton-->
+	        
+                <table align="center">
+		<tr>
+                
+                <!--BD Time & Date-->
+                
+                <td align="left" style="width:25%">
+
+                <iframe src="http://free.timeanddate.com/clock/i5wcm6ob/n73/tlbd43/fn11/fs15/fc00f/ftb/bat1/bacf00/tt0/tw0/tm1/th2/ta1/tb4" frameborder="0" width="146" height="41"></iframe>
+
+		</td><!--BD Time & Date End-->
+                
+                 <!-- AddToAny Share Button BEGIN-->
+                 
+                <td align="left" style="width:25%">
+              
+                <div>
+
+                <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fmyyhtml.mywebcommunity.org%2F&amp;linkname=HTML" target="_blank"><img src="https://static.addtoany.com/buttons/facebook.svg" width="32" height="32"></a>
+                <a href="https://www.addtoany.com/add_to/copy_link?linkurl=http%3A%2F%2Fmyyhtml.mywebcommunity.org%2F&amp;linkname=HTML" target="_blank"><img src="https://static.addtoany.com/buttons/link.svg" width="32" height="32"></a>
+                <a href="https://www.addtoany.com/add_to/facebook_messenger?linkurl=http%3A%2F%2Fmyyhtml.mywebcommunity.org%2F&amp;linkname=HTML" target="_blank"><img src="https://static.addtoany.com/buttons/facebook_messenger.svg" width="32" height="32"></a>
+                <a href="https://www.addtoany.com/add_to/twitter?linkurl=http%3A%2F%2Fmyyhtml.mywebcommunity.org%2F&amp;linkname=HTML" target="_blank"><img src="https://static.addtoany.com/buttons/twitter.svg" width="32" height="32"></a>
+                <a href="https://www.addtoany.com/add_to/google_plus?linkurl=http%3A%2F%2Fmyyhtml.mywebcommunity.org%2F&amp;linkname=HTML" target="_blank"><img src="https://static.addtoany.com/buttons/google_plus.svg" width="32" height="32"></a>
+                <a href="https://www.addtoany.com/add_to/instapaper?linkurl=http%3A%2F%2Fmyyhtml.mywebcommunity.org%2F&amp;linkname=HTML" target="_blank"><img src="https://static.addtoany.com/buttons/instapaper.svg" width="32" height="32"></a>
+                <a href="https://www.addtoany.com/share?linkurl=http%3A%2F%2Fmyyhtml.mywebcommunity.org%2F&amp;linkname=HTML" target="_blank"><img src="https://static.addtoany.com/buttons/a2a.svg" width="32" height="32"></a>
+                </div>
+                <!-- AddToAny END -->
+
+               
+            
+                 
+                 <!-- hitwebcounter pageview code START -->
+		<td style="width:25%">
+                
+		<center>
+		
+		<img src="http://hitwebcounter.com/counter/counter.php?page=6766906&style=0001&nbdigits=5&type=ip&initCount=0" title="" Alt=""   border="0" >
+		</a>                                        <br/>
+                <!-- hitwebcounter.com --><a href="#" title="How Many People Visit" 
+                target="_blank" style="font-family: Geneva, Arial, Helvetica, sans-serif; 
+                font-size: 9px; color: #908C86; text-decoration: underline ;"><strong>How Many People Visit                                        </strong>
+                 </a></center>
+                 
+                 </td>
+                          <!-- hitwebcounter pageview code END -->
+                          
+                             
+               <!--smile face animation-->
+               <td align="left" style="width:25%">
+
+              <div id="div1" class="fa"></div>
+​
+                <script>
+                function smile() {
+                  var a;
+                  a = document.getElementById("div1");
+                  a.innerHTML = "&#xf118;";
+                  setTimeout(function () {
+                      a.innerHTML = "&#xf11a;";
+                    }, 1000);
+                  setTimeout(function () {
+                      a.innerHTML = "&#xf119;";
+                    }, 2000);
+                  setTimeout(function () {
+                      a.innerHTML = "&#xf11a;";
+                    }, 3000);
+                }
+                smile();
+                setInterval(smile, 4000);
+                </script>
+
+		</td>
+                 <!--smile face animation end-->
+                 
+                 
+		</tr>
+                
+		</table>
+
+
+        </body>
+</html>
